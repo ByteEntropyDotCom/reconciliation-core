@@ -1,4 +1,4 @@
-package com.byteentropy.event_core.client;
+package com.byteentropy.reconciliation_core.client;
 
 import com.byteentropy.event_core.model.StatusInquiryResponse;
 import org.springframework.stereotype.Component;
