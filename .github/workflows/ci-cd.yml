@@ -1,4 +1,4 @@
-name: Event-Core CI/CD
+name: reconciliation-core CI/CD
 
 on:
   push:
@@ -39,13 +39,13 @@ jobs:
           cache: 'maven'
 
       - name: Build with Maven
-        # This runs your EventCoreApplicationTests automatically
+        # This runs your ReconciliationCoreApplicationTests automatically
         run: mvn clean package
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: event-core-jar
+          name: reconciliation-core-jar
           path: target/*.jar
 
   docker-build:
