@@ -1,4 +1,4 @@
-package com.byteentropy.event_core.model;
+package com.byteentropy.reconciliation_core.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
