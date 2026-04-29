@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>com.byteentropy</groupId>
-    <artifactId>event-core</artifactId>
+    <artifactId>reconciliation-core</artifactId>
     <version>1.0.0</version>
-    <name>event-core</name>
+    <name>reconciliation-core</name>
     <description>Self-healing reconciliation engine</description>
 
     <properties>
