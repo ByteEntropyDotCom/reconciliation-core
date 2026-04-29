@@ -41,5 +41,5 @@ The logic is fully verified via EventCoreApplicationTests, which covers:
 
 ## 🔗 Configuration
 Important properties in application.properties:
-reconciliation.interval: Frequency of the cleanup cycle (default 30s).
-spring.datasource.url: Must point to the same DB as resilience-core.
+1. reconciliation.interval: Frequency of the cleanup cycle (default 30s).
+2. spring.datasource.url: Must point to the same DB as resilience-core.
