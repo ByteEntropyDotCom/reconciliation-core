@@ -62,8 +62,8 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t byteentropy/event-core:${{ github.sha }} .
-          docker tag byteentropy/event-core:${{ github.sha }} byteentropy/event-core:latest
+          docker build -t byteentropy/reconciliation-core:${{ github.sha }} .
+          docker tag byteentropy/reconciliation-core:${{ github.sha }} byteentropy/reconciliation-core:latest
 
       # Optional: Add steps here to login to DockerHub/GHCR and push the image
       # - name: Login to DockerHub
