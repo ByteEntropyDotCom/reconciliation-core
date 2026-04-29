@@ -1,6 +1,6 @@
-# 🛡️ Event-Core: The Self-Healing Reconciler
+# 🛡️ reconciliation-core: The Self-Healing Reconciler
 
-The `event-core` is the asynchronous safety net of the ByteEntropy payment ecosystem. Its primary job is to resolve transactions stuck in an **UNCERTAIN** state due to network timeouts or bank delays.
+The `reconciliation-core` is the asynchronous safety net of the ByteEntropy payment ecosystem. Its primary job is to resolve transactions stuck in an **UNCERTAIN** state due to network timeouts or bank delays.
 
 ## 🚀 Role in the Ecosystem
 1. **Detection:** Scans the shared database for transactions with `UNCERTAIN` status.
@@ -25,8 +25,8 @@ mvn test
 ### Run with Docker
 
 ```bash
-docker build -t event-core .
-docker run -p 8082:8082 event-core
+docker build -t reconciliation-core .
+docker run -p 8082:8082 reconciliation-core
 ```
 
 ## 🧪 Testing the Logic
