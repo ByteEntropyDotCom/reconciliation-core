@@ -1,9 +1,9 @@
-package com.byteentropy.event_core.scheduler;
+package com.byteentropy.reconciliation_core.scheduler;
 
-import com.byteentropy.event_core.client.BankInquiryClient;
-import com.byteentropy.event_core.model.PaymentEntity;
-import com.byteentropy.event_core.model.StatusInquiryResponse;
-import com.byteentropy.event_core.repository.ReconciliationRepository;
+import com.byteentropy.reconciliation_core.client.BankInquiryClient;
+import com.byteentropy.reconciliation_core.model.PaymentEntity;
+import com.byteentropy.reconciliation_core.model.StatusInquiryResponse;
+import com.byteentropy.reconciliation_core.repository.ReconciliationRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
